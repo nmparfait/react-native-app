@@ -1,14 +1,13 @@
-## Réaliser une application mobile qui permettent de contrôler et de superviser des objets intelligents.
-## Rechercher de l’information technique sur Internet.
+## Realize a mobile application that allows to control and supervise smart objects.
+## Search for technical information on the Internet.
 
-Nous nous sommes basés sur cette reference pour reussir la connection. 
+We based ourselves on this reference to succeed in the connection.
 
 https://www.emqx.com/en/blog/how-to-use-mqtt-in-react-native
 
-il s'agit d'une bibliothèque cliente MQTT pour React Native. Il utilise des bibliothèques client MQTT natives et les expose via une interface Javascript unifiée. 
-Il existe quelques autres bibliothèques React Native MQTT, mais elles ne semblent pas fonctionner comme prévu ou ne prennent pas en charge les configurations TLS 
-plus avancées.
-
+this is an MQTT client library for React Native. It uses native MQTT client libraries and exposes them through a unified JavaScript interface.
+There are a few other React Native MQTT libraries, but they don't seem to work as expected or don't support TLS configurations
+more advanced.
 npm install @react-native-async-storage/async-storage @rneui/base @rneui/themed
 
 ### Install the MQTT client module
@@ -18,6 +17,8 @@ npm install react_native_mqtt
 ### How to Use MQTT client module
 
 #### Connecting to an MQTT Server
+
+____________________________________________________________________________________________________________________________________________________
 
 #### We use the free public MQTT server provided by EMQ, which is based on the MQTT cloud of EMQX. The server access information is as follows:
 
